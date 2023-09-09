@@ -15,6 +15,11 @@
     height:100vh;
     scroll-snap-align: center;
 }
+.heroic{
+    /* background-color: white; */
+    height:100vh;
+    scroll-snap-align: center;
+}
 
 @media screen and (max-width:1150px) {
     .page2{
@@ -35,5 +40,10 @@
         width:100%;
         scroll-snap-align: none;
     }
+    .heroic{
+    /* background-color: white; */
+    height:50vh;
+    scroll-snap-align: none;
+}
 
 }
