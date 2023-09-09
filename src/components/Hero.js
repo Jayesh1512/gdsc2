@@ -27,7 +27,7 @@ function Hero() {
 
   
   return (
-    <div className={css.hero}>
+    <div className={css.heroic}>
       <div className='navigation'>
         <div className='left'>
         <img src = {logo}></img>
