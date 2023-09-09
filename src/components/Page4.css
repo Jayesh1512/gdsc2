@@ -1,0 +1,104 @@
+.page4-head{
+  display: flex;
+  height: 5vh;
+}
+  
+  .page4-subhead {
+    margin-top: 2vh;
+    color:var(---text);
+    font-family: "Open Sans", sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 75px */
+    letter-spacing: -1.1px;
+    text-align: center;
+  }
+  
+  .page4-hr {
+    width: 13%;
+    height: 6px;
+    border: none;
+    background-color:#DB4437;
+  }
+  
+  .going {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .going img {
+    margin-top: 5vh;
+    margin-left: 5vw;
+    width: 40vw;
+  }
+  
+  .going-text {
+    margin-top: 5vh;
+    padding:15px;
+    width: 45vw;
+    margin-right: 5vw;
+    color:var(---text);
+    text-align: right;
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 45px */
+    letter-spacing: -0.66px;
+    border-right: 14px solid #DB4437;
+    border-radius: 12px;;
+    
+  }
+  @media screen and (max-width:768px){ 
+    .page4-head{
+      display: flex;
+      height: 1vh;
+    }
+    .page4-subhead {
+      margin-top: 5vh;
+      color:var(---text);
+      font-family: "Open Sans", sans-serif;
+      font-size: 45px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 150%; /* 75px */
+      letter-spacing: -1.1px;
+      text-align: center;
+    }
+    .page4-hr {
+      width: 156px;
+      height: 6px;
+      border: none;
+      background-color:#DB4437;      
+  }
+  .going {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .going img {
+    margin-top: 10vh;
+    width: 90vw;
+  }
+  .going-text {
+    margin-top: 15vh;
+    padding:15px;
+    width: 80vw;
+    margin-right: 5vw;
+    color:var(---text);
+    text-align: right;
+    font-family: "Open Sans", sans-serif;
+    font-size: x-large;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 45px */
+    letter-spacing: -0.66px;
+    border-right: 14px solid #DB4437;
+    border-radius: 12px;;
+    
+  }
+
+  }

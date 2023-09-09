@@ -1,0 +1,111 @@
+.page3-head{
+  display: flex;
+  height: 5vh;
+}
+.page3-subhead {
+    margin-top: 5vh;
+    color: var(---text);
+    font-family: "Open Sans", sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 75px */
+    letter-spacing: -1.1px;
+    text-align: center;
+  }
+  
+  .page3-hr {
+    width: 13%;
+    height: 6px;
+    border: none;
+    background-color: #0F9D56;
+  }
+  
+  .perspective {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .perspective img {
+    margin-top: 10vh;
+    margin-right: 5vw;
+    width: 40vw;
+  }
+  
+  .perspective-text {
+      padding:15px;
+    width: 45vw;
+    margin-left: 5vw;
+    color: var(---text);
+    text-align: left;
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 45px */
+    letter-spacing: -0.66px;
+    border-left: 14px solid #0F9D56;
+    border-radius: 12px;
+    
+  }
+  
+
+  @media screen and (max-width:768px){  
+    
+    .page3-head{
+      display: flex;
+      height: 1vh;
+    }
+
+    .page3-subhead {
+      margin-top: 5vh;
+      color: var(---text);
+      font-family: "Open Sans", sans-serif;
+      font-size: 45px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 150%; /* 75px */
+      letter-spacing: -1.1px;
+      text-align: center;
+    }
+
+    .page3-hr {
+      width: 156px;
+      height: 6px;
+      border: none;
+      background-color: #0F9D56;
+    }
+
+    .perspective {
+    
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: center;
+      align-items: center;
+    }
+    .perspective img {
+      margin-top: 4vh;
+      width: 90vw;
+    }
+
+
+
+    .perspective-text {
+      padding:15px;
+    width: 80vw;
+    margin-left: 5vw;
+    color: var(---text);
+    text-align: left;
+    font-family: "Open Sans", sans-serif;
+    font-size: x-large;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 45px */
+    letter-spacing: -0.66px;
+    border-left: 14px solid #0F9D56;
+    border-radius: 12px;
+    
+  }
+  }

@@ -1,0 +1,115 @@
+.page2-head {
+  color: var(---text);
+  font-family: "Open Sans", sans-serif;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 90px */
+  letter-spacing: -1.32px;
+  text-align: center;
+}
+
+.page2-subhead {
+  margin-top: 5vh;
+  color: var(---text);
+  font-family: "Open Sans", sans-serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 75px */
+  letter-spacing: -1.1px;
+  text-align: center;
+}
+
+.page2-hr {
+  width: 206px;
+  height: 6px;
+  border: none;
+  background-color: #4285f4;
+}
+
+.mission {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mission img {
+  margin-left: 5vw;
+  width: 30vw;
+}
+
+.mission-text {
+    padding:15px;
+  width: 45vw;
+  margin-right: 5vw;
+  color: var(---text);
+  text-align: right;
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 45px */
+  letter-spacing: -0.66px;
+  border-right: 14px solid #4285f4;
+  border-radius: 12px;;
+  
+}
+
+
+@media screen and (max-width:768px){
+  
+  .page2-head {
+    color: var(---text);
+    font-family: "Open Sans", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 90px */
+    letter-spacing: -1.32px;
+    text-align: center;
+  }
+  .page2-subhead {
+    margin-top: 5vh;
+    color: var(---text);
+    font-family: "Open Sans", sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 75px */
+    letter-spacing: -1.1px;
+    text-align: center;
+  }
+  .page2-hr {
+    width: 156px;
+    height: 6px;
+    border: none;
+    background-color: #4285f4;
+  }
+  .mission {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .mission img {
+    margin-top: 3vh;
+    width: 94vw;
+  }
+
+  .mission-text {
+  color: var(---text);
+  margin-top: 5vh;
+  width:80vw;
+  text-align: right;
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 45px */
+  letter-spacing: -0.66px;
+  border-right: 14px solid #4285f4;
+  border-radius: 12px;;
+  
+}
+}

@@ -1,0 +1,39 @@
+.page2{
+    /* background-color: white; */
+    height:100vh;
+    scroll-snap-align: center;
+}
+
+.page1{
+    /* background-color:white; */
+    height:100vh;
+    scroll-snap-align: center;
+}
+
+.hero{
+    /* background-color: white; */
+    height:100vh;
+    scroll-snap-align: center;
+}
+
+@media screen and (max-width:1150px) {
+    .page2{
+        height:160vh;
+        width:100%;
+        scroll-snap-align: none;
+    }
+
+    .page1{
+        /* background-color:white; */
+        height:140vh;
+        width:100%;
+        scroll-snap-align: none;
+    }
+    .hero{
+        /* background-color: white; */
+        height:100vh;
+        width:100%;
+        scroll-snap-align: none;
+    }
+
+}
